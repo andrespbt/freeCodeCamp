@@ -1,0 +1,82 @@
+*{
+    box-sizing:borderbox;
+  }
+  
+  body {
+    margin:0;
+    font-family: sans-serif,serif;
+    color:rgb(255,255,255);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) );
+    
+    font-size:1.2em
+  
+  }
+  
+  h1 {
+    margin:1em auto 0.5em auto;
+    text-align:center;
+    font-weight: 200;
+  }
+  
+  #description {
+    margin: 0 auto 2em 0;
+    text-align: center;
+  }
+  
+  form{
+    display:block;
+    background-color:rgba(27, 27, 50, 0.8);
+    padding: 25px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  label {
+    width:100%;
+  display:block;
+  margin:20px auto;
+  }
+  
+  #name-label,#email-label,#number-label{
+    font-size: 1.1em
+  }
+  
+  input, select, textarea, button {
+    display:block;
+    margin: 10px 0 15px;
+    width:100%;
+    height:2.4em;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+  width: unset;
+  display:inline;
+  vertical-align:middle;
+  margin:0 0.3em 0 0;
+  }
+  
+  p > span {
+    font-size:0.9rem;
+  }
+  
+  input[type="checkbox"]{
+    margin-right:10px;
+  }
+  
+  p {
+    font-size:1.1em;
+  }
+  
+  textarea {
+    min-height:120px;
+    padding: 0.6rem;
+  }
+  
+  #submit {
+    background-color:#37af65;
+    color:white;
+    border:none;
+    border-radius:2px;
+    cursor:pointer;
+  }
+  
