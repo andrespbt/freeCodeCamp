@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #150000;
+    color:#FFFFFF;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    width: auto;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#img-div {
+    max-width: 700px;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 5px;
+    overflow: hidden;
+}
+
+#image {
+    height: auto;
+    max-width:100%;
+    overflow: hidden;
+}
+
+#img-caption {
+    font-size: 0.7em;
+}
+
+section {
+    margin-top: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section h2 {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 2rem;
+}
+
+section ul {
+    margin: 0 25px 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.bold {
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+#quote {
+    margin: 60px auto;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#quote > span {
+    font-weight: bold;
+}
+
+#link {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    color:#FF721F
+}
+
+a:hover, a:active, a:focus{
+    color: #FFFFFF;
+}
+
