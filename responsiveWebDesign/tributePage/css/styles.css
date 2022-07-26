@@ -24,7 +24,6 @@ p {
 }
 
 #img-div {
-    max-width: 700px;
     height: 65vh;
     display: flex;
     flex-direction: column;
@@ -39,6 +38,7 @@ p {
     height: auto;
     max-width:100%;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 #img-caption {
