@@ -162,7 +162,10 @@
 
       .code {
         margin: 2rem 2rem;
-        font-size: 1.3rem;
+      }
+
+      code {
+        font-size: 1rem;
       }
 
   }
