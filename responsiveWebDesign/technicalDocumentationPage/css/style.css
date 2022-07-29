@@ -1,0 +1,108 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+
+}
+
+#navbar {
+    display: block;
+    width: 35vw;
+    min-width: 100px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    background-color: #fff;
+    border-right: 1px solid gray;
+}
+
+.nav-link{
+    display: block;
+    width: 100%;
+    max-height: 30px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    border-top: 1px solid black;
+    padding: 0 0.5rem;
+}
+
+#main-doc {
+    font-size: 0.8rem;
+    width: 100%;
+    margin-left: 40vw;
+    padding: 0 1rem;
+}
+
+#Introduction > header {
+    padding-top: 1rem;
+}
+
+.main-section > header {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.paragraph {
+    padding: 0.3rem;
+    margin: 0.2rem auto;
+    line-height:20px;
+}
+
+.unorder-list {
+    margin: 1rem 1rem 2rem 2rem;
+}
+
+.unorder-list > li {
+    padding: 0.6rem;
+    line-height:20px;
+}
+
+.code {
+    background-color: gray;
+    margin: 1rem 0 1rem 1rem;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+.code > span {
+    font-size: 0.6rem;
+    width: 100%;
+    font-style: italic;
+}
+
+.nested-list > li {
+    margin: 0;
+    padding: 0.2rem;
+}
+
+a:visited:not(.nav-link) {
+    color: blue;
+}
+
