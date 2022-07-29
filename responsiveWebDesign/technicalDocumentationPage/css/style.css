@@ -1,12 +1,10 @@
 * {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-
-
-
-h1 {
+  }
+  
+  h1 {
     display: inline-block;
     font-size: 0.8rem;
     width: 100%;
@@ -14,10 +12,9 @@ h1 {
     text-align: center;
     margin: 10px 0;
     font-weight: 600;
-
-}
-
-#navbar {
+  }
+  
+  #navbar {
     display: block;
     width: 35vw;
     min-width: 100px;
@@ -26,9 +23,9 @@ h1 {
     left: 0px;
     background-color: #fff;
     border-right: 1px solid gray;
-}
-
-.nav-link{
+  }
+  
+  .nav-link {
     display: block;
     width: 100%;
     max-height: 30px;
@@ -36,73 +33,137 @@ h1 {
     text-align: left;
     font-size: 0.8rem;
     color: gray;
-}
-
-.nav-list {
+  }
+  
+  .nav-list {
     display: flex;
     align-items: center;
     list-style: none;
     width: 100%;
-    height: 50px;
-    margin: 10px auto;
+    height: 3.2rem;
+    margin: 5px auto 5px;
     border-top: 1px solid black;
-    padding: 0 0.5rem;
-}
-
-#main-doc {
-    font-size: 0.8rem;
+    padding: 1rem 0.5rem;
+  }
+  
+  #main-doc {
+    font-size: 1.2rem;
     width: 100%;
+    height: 100%;
+    max-width: 600px;
     margin-left: 40vw;
     padding: 0 1rem;
-}
-
-#Introduction > header {
+    line-height: 40px;
+    overflow: scroll;
+  }
+  
+  #Introduction > header {
     padding-top: 1rem;
-}
-
-.main-section > header {
+  }
+  
+  .main-section > header {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin: 1rem 0;
     text-align: center;
-}
-
-.paragraph {
+  }
+  
+  .paragraph {
     padding: 0.3rem;
     margin: 0.2rem auto;
-    line-height:20px;
-}
-
-.unorder-list {
+  }
+  
+  .unorder-list {
     margin: 1rem 1rem 2rem 2rem;
-}
-
-.unorder-list > li {
+  }
+  
+  .unorder-list > li {
     padding: 0.6rem;
-    line-height:20px;
-}
-
-.code {
+  }
+  
+  .code {
     background-color: gray;
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem 0.8rem 1rem 0.8rem;
     height: fit-content;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 5px;
     background-color: #f7f7f7;
-}
+  }
 
-.code > span {
-    font-size: 0.6rem;
-    width: 100%;
-    font-style: italic;
-}
-
-.nested-list > li {
+  code {
+    font-size: 0.8rem;
+  }
+  
+  .nested-list > li {
     margin: 0;
     padding: 0.2rem;
-}
-
-a:visited:not(.nav-link) {
+  }
+  
+  a:visited:not(.nav-link) {
     color: blue;
-}
+  }
 
+  @media (min-width: 768px) {
+
+    #navbar {
+        max-width: 300px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .nav-list{
+        align-items: center;
+        max-height: 3rem;
+        max-height: 35px;
+    }
+
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+        color: rgb(77, 74, 74);
+    }
+
+    #main-doc {
+        text-align: left;
+        margin-left: 20rem;
+        width: 100%;
+        margin-right: 0;
+        max-width: 75vw;
+        font-size: 1.4rem;
+    }
+
+    .main-section > header {
+        font-weight: 600;
+        font-size: 3rem;
+        margin: 4rem 0;
+        text-align: left;
+      }
+
+      .paragraph {
+        margin: 2rem 0 2rem 1rem;
+      }
+
+      .unorder-list {
+        margin-left: 4rem;
+      }
+
+      #Introduction > header {
+        padding-top: 1rem;
+        margin: 1.5rem 0 2rem;
+      }
+
+      .code {
+        margin: 2rem 2rem;
+        font-size: 1.3rem;
+      }
+
+  }
+  
