@@ -26,3 +26,8 @@ hamburger.addEventListener("click", () => {
   ulNavContainer.classList.toggle("nav-list--container--mobile");
   ulNavContainer.classList.toggle("nav-list--container");
 });
+
+hamburger.addEventListener("touchstart", () => {
+  ulNavContainer.classList.toggle("nav-list--container--mobile");
+  ulNavContainer.classList.toggle("nav-list--container");
+});
