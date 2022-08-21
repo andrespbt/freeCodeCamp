@@ -109,6 +109,10 @@ header {
 
 }
 
+.hide {
+    display: none;
+}
+
 .header-li:focus, .header-li:active, .header-li:visited {
 
     color: var(--color-cardPrice);
