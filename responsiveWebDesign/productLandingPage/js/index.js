@@ -2,7 +2,6 @@ window.onload = function () {
   window.onscroll = function () {
     stickyFunction();
   };
-
   const navBar = document.querySelector("#nav-bar");
   const header = document.querySelector("#header");
   const hamburger = document.querySelector(".hamburger");
